@@ -7,7 +7,7 @@
   tasks:
   - name: under maintenance
     copy:
-      src: C:\Users\23481\Desktop\devops-with-AWS\ansible-work-1\maintenance.html
+      src: maintenance.html
       dest: /var/www/html/index.html
 
 ...
