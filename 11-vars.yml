@@ -3,7 +3,7 @@
   hosts: n6
   become: yes
   vars:
-  myusername: Assawti
+    myusername: Assawti
 
   tasks:
   - name: update dynamic page
