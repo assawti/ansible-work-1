@@ -1,0 +1,14 @@
+---
+- name: variables DEMO
+  hosts: n6
+  become: yes
+  vars:
+  myusername: Assawti
+
+  tasks:
+  - name: update dynamic page
+    copy:
+      src: staticweb.html
+      dest: /var/www/html/static.html
+
+...
