@@ -1,9 +1,13 @@
 <html>
     <body>
         <center>
-        <h3> The Server Operating System : </h3>
+        <h1> The Environment : {{ ansible_env }} </h1>
         <br>
-        <h2>The Server Hostname</h2>
+        <h3> The Server Operating System : {{ ansible_distribution}} </h3>
+        <br>
+        <h2>The Server Hostname : {{ ansible_hostname }} </h2>
+        <br>
+        <h2>The Kernel Version : {{ ansible_kernel_version }} </h2>
     </center>
     </body>
 </html>
